@@ -1,0 +1,157 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+	background: #FFFFFF
+}
+
+.root {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+a {
+	text-decoration: none
+}
+
+.greenGradientBg {
+	background: #39B500;
+	background: -moz-linear-gradient(top, #39b500 0%, #216a00 85%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #39b500),
+		color-stop(85%, #216a00));
+	background: -webkit-linear-gradient(top, #39b500 0%, #216a00 85%);
+	background: -o-linear-gradient(top, #39b500 0%, #216a00 85%);
+	background: -ms-linear-gradient(top, #39b500 0%, #216a00 85%);
+	background: linear-gradient(top, #39b500 0%, #216a00 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=  '#39B500',
+		endColorstr=  '#216A00', GradientType=  0)
+}
+
+label[ui-infieldlabel] {
+	position: absolute;
+	font-size: 12px
+}
+
+table {
+	cell-padding: 0px
+}
+
+.datagrid {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	bottom: 0px;
+	margin: auto
+}
+
+.datagrid .viewport {
+	position: absolute;
+	overflow: hidden;
+	z-index: 1
+}
+
+.datagrid .viewport>.gridcontent {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 0px;
+	height: auto
+}
+
+.datagrid .scroller {
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 0
+}
+
+.datagrid .scroller>div {
+	width: 1px;
+	height: 1px
+}
+
+.datagrid .rows {
+	width: 100%
+}
+
+.datagrid .groupHeader {
+	text-align: left;
+	width: 100%;
+	min-height: 20px;
+	background: rgba(0, 127, 255, 0.5)
+}
+
+.datagrid .gridcontent .container {
+	position: absolute;
+	top: 0px;
+	width: 100%
+}
+
+.datagrid .loader {
+	width: 100%;
+	height: 100%
+}
+
+.datagrid .loader.show {
+	-webkit-animation: fadeInAnimation 0s forwards;
+	-moz-animation: fadeInAnimation 0s forwards;
+	-ms-animation: fadeInAnimation 0s forwards;
+	opacity: 1
+}
+
+.datagrid .empty {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	margin: auto;
+	z-index: 1000
+}
+
+.datagrid tr,.datagrid .container>div {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box
+}
+
+.offline-debugger {
+	display: none
+}
+
+.offline-debugger.enable {
+	display: block;
+	position: absolute;
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 150px;
+	height: 32px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-ms-border-radius: 0px 0px 10px 10px
+}
+
+.offline-debugger>div {
+	color: #FFFFFF
+}
+
+.offline-debugger>div:nth-child(1) {
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+.hide {
+	display: none
+}
