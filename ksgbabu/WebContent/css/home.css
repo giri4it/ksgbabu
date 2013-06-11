@@ -1,0 +1,111 @@
+.header {
+	background-color: #6E5860;
+	height: 78px;
+	text-align: right;
+	font-weight: bold;
+	background: -moz-linear-gradient(top, #6E5860 0%, #996378 85%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6E5860),
+		color-stop(85%, #996378));
+	background: -webkit-linear-gradient(top, #6E5860 0%, #996378 85%);
+	background: -o-linear-gradient(top, #6E5860 0%, #996378 85%);
+	background: -ms-linear-gradient(top, #6E5860 0%, #996378 85%);
+	background: linear-gradient(top, #6E5860 0%, #996378 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=      '#6E5860',
+		endColorstr=      '#996378', GradientType=      0);
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.heading {
+	font-size: xx-large;
+	padding-right: 30px;
+	color: #ffffff;
+}
+
+.menu {
+	background-color: #A39B9E;
+	width: 17%;
+	min-height: 700px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	display: inline-block;
+	float: left;
+	padding-top: 1%;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.content {
+	background-color: #EBE1E5;
+	width: 60%;
+	min-height: 700px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	display: inline-block;
+	float: left;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.rightpane {
+	background-color: #A39B9E;
+	width: 17%;
+	min-height: 700px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	display: block;
+	float: left;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.footer {
+	background-color: #29171E;
+	text-align: center;
+	height: 78px;
+	text-align: right;
+	min-width: 100%;
+	display: inline-block;
+	float: left;
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.applicationCatridge {
+	width: 150px;
+	height: 50px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-ms-border-radius: 10px 10px 10px 10px;
+	font: red;
+	font-size: large;
+	padding-top: 25px;
+	text-align: center;
+	float: left;
+	display: block;
+	clear: left;
+	margin-top: 50px;
+}
+
+.applicationCatridge:HOVER {
+	color: blue;
+}
+
+.applicationTitle {
+	text-align: left;
+	min-height: 50px;
+	display: inline;
+	float: left;
+	padding-top: 25px;
+	display: block;
+	clear: right;
+	font-size: medium;
+}

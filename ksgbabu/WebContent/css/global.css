@@ -26,13 +26,29 @@ a {
 	background: -o-linear-gradient(top, #39b500 0%, #216a00 85%);
 	background: -ms-linear-gradient(top, #39b500 0%, #216a00 85%);
 	background: linear-gradient(top, #39b500 0%, #216a00 85%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=  '#39B500',
-		endColorstr=  '#216A00', GradientType=  0)
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=   '#39B500',
+		endColorstr=   '#216A00', GradientType=   0)
 }
 
-label[ui-infieldlabel] {
-	position: absolute;
-	font-size: 12px
+.fieldLabel {
+	padding-left: 50px;
+	padding-top: 3px;
+	font-size: 12px;
+	float: left;
+	display: inline;
+}
+
+.fieldInput {
+	padding-left: 50px;
+	font-size: 12px;
+	clear: right;
+	float: left;
+	display: block;
+}
+
+.textdata {
+	padding: 3px 3px 3px 3px;
+	display: block;
 }
 
 table {
@@ -79,12 +95,6 @@ table {
 	width: 100%
 }
 
-.datagrid .groupHeader {
-	text-align: left;
-	width: 100%;
-	min-height: 20px;
-	background: rgba(0, 127, 255, 0.5)
-}
 
 .datagrid .gridcontent .container {
 	position: absolute;

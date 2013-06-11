@@ -5,6 +5,10 @@ angular.module('app', []).config(
 				templateUrl : 'partials/home.html',
 				controller : HomeController
 			});
+			$routeProvider.when('/pokerHome', {
+				templateUrl : 'partials/poker/pokerHome.html',
+				controller : HomeController
+			});
 			$routeProvider.when('/login', {
 				templateUrl : 'partials/login.html',
 				controller : LoginController

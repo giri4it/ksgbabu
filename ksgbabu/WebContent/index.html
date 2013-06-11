@@ -5,7 +5,6 @@
 <title>KSGBABU.COM</title>
 <link rel="stylesheet" type="text/css" href="css/global.css">
 <link rel="stylesheet" type="text/css" href="css/home.css">
-<link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
 <body data-ng-app="app" ng-controller="HomeMenuController">
 	
@@ -19,13 +18,27 @@
 			<li><a href="#/home">{{menuItems.1}}</a></li>
 			<li><a href="http://blog.ksgbabu.com">{{menuItems.2}}</a></li>
 			<li><a href="http://blog.ksgbabu.com">{{menuItems.3}}</a></li>
+			<li><a href="#/login">{{menuItems.4}}</a></li>
 
 		</ul>
 		
 	</div>
 	<div data-ng-view class="content"></div>
-	<div class="rightpane"></div>
-	<div class="footer">copy right &copy; ksgbabu.com, 2013</div>
+	<div class="rightpane">
+		<img alt="mypic" src="images/my-pic-small.jpg">
+		<p> <span class="textdata">Gireesh Babu K S <sub>(Senior Technical Architect)</sub></span> <br />
+		<span class="textdata">
+		    Working for <strong> Mcfadyen Solutions.</strong> </span><span class="textdata">  <strong>Address:</strong> <br /> 12th floor, Leela infopark, Technopark, Trivandrum, India, Kerala, 695581. </span>
+		    <span class="textdata">
+		    <strong> Certifications:</strong> <br />
+		    Oracle Certified Specialist in ATG implementation Developer </span>
+		    <span class="textdata">
+		    TOGAF Certified Enterprise Architect 
+		    </span>
+			
+		</p>
+	</div>
+	<div class="footer">copy right &copy; ksgbabu.com, 2013&nbsp; &nbsp;</div>
 
 	<script type="text/javascript" src="js/lib/angular-1.0.4.js"></script>
 	<script type="text/javascript" src="js/lib/jquery-1.7.2.js"></script>
