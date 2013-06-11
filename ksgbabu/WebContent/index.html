@@ -1,32 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html ng-app>
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>KSGBABU.COM</title>
 <link rel="stylesheet" type="text/css" href="css/global.css">
-<link rel="stylesheet" href="css/app.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-
-<script type="text/javascript" src="js/lib/angular-1.0.4.js"></script>
-<script type="text/javascript" src="js/lib/jquery-1.7.2.js"></script>
-<script type="text/javascript" src="js/lib/jquery.utils.js"></script>
-<script type="text/javascript" src="js/controller/homeController.js"></script>
-<script type="text/javascript" src="js/app.js"></script>
 </head>
-<body ng-controller="HomeMenuCtrl">
+<body data-ng-app="app">
 	<h1>Welcome to ksgbabu.com</h1>
-	<div id="menu">
-		<p>
-		<ul>
-			<li>{{menuItems.1}}</li>
-			<li>{{menuItems.2}}</li>
-			<li><a href="http://blog.ksgbabu.com">{{menuItems.3}}</a></li>
-
-		</ul>
-		</p>
-	</div>
 
 
+	<div data-ng-view>Loading ....</div>
+
+	<script type="text/javascript" src="js/lib/angular-1.0.4.js">
+	</script>
+	<script type="text/javascript" src="js/lib/jquery-1.7.2.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.utils.js"></script>
+	<script type="text/javascript" src="js/controller/controllers.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>

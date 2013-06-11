@@ -1,16 +1,14 @@
-var app = angular.module('app', [], function($routeProvider, $locationProvider) {
-  $routeProvider.when('/home', {
-    templateUrl: '/partials/home.html',
-    controller: HomeController
-  });
-  // When you put /home, it also automatically handles /home/ as well
-  $routeProvider.when('/login', {
-    templateUrl: '/partials/login.html',
-    controller: LoginController
-  });
-  $routeProvider.otherwise( { redirectTo: '/login'} );
-  
-  // configure html5 to get links working
-  // If you don't do this, you URLs will be base.com/#/home rather than base.com/home
-  $locationProvider.html5Mode(true);
-});
+angular.module('app', []).config(
+		[ '$routeProvider', function($routeProvider) {
+						
+			$routeProvider.when('/home', {
+				templateUrl : 'partials/home.html',
+				controller : HomeController
+			});
+			$routeProvider.when('/login', {
+				templateUrl : 'partials/login.html',
+				controller : LoginController
+			}).otherwise({
+				redirectTo : '/login'
+			});
+		} ]);
