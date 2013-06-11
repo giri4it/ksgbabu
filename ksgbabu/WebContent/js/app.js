@@ -9,6 +9,6 @@ angular.module('app', []).config(
 				templateUrl : 'partials/login.html',
 				controller : LoginController
 			}).otherwise({
-				redirectTo : '/login'
+				redirectTo : '/home'
 			});
 		} ]);
